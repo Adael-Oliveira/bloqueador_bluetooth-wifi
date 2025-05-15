@@ -1,0 +1,15 @@
+{
+  "name": "Firmware ESP32 - Adael Oliveira",
+  "description": "Firmware oficial do projeto com ESP32 criado por Adael Oliveira.",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
