@@ -1,12 +1,12 @@
 {
   "name": "Firmware ESP32 - Adael Oliveira",
-  "description": "Firmware oficial do projeto com ESP32 criado por Adael Oliveira.",
+  "description": "Firmware oficial para bloqueador Bluetooth/Wi-Fi",
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "firmware.bin",
+          "path": "./firmware.bin",
           "offset": 65536
         }
       ]
